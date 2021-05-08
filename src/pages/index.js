@@ -16,7 +16,7 @@ const IndexPage = () => (
     <Header />
     <Features />
     <GetStarted />
-    <Footer />
+    {/* <Footer /> */}
   </Layout>
 )
 

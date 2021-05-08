@@ -7,9 +7,9 @@ const Footer = () => (
   <FooterWrapper id="footer">
     <FooterColumnContainer>
       <FooterColumn>
-        <span>Features</span>
+        <span>Sobre nós</span>
         <ul>
-          <li>Automation</li>
+          <li>Quem somos</li>
           <li>Rewards</li>
         </ul>
       </FooterColumn>
@@ -36,7 +36,7 @@ const Footer = () => (
       </FooterColumn>
     </FooterColumnContainer>
     <BrandContainer>
-      <Logo>Finance</Logo>
+      <Logo></Logo>
     </BrandContainer>
   </FooterWrapper>
 )
