@@ -66,8 +66,10 @@ const FeaturesGrid = styled.div`
   grid-column-gap: 40px;
   grid-row-gap: 35px;
   @media (max-width: ${props => props.theme.screen.sm}) {
+    max-width: 100%;
     grid-template-columns: 1fr;
-    padding: 0 64px;
+    padding: 0;
+    text-align: center;
   }
 `
 
@@ -76,6 +78,7 @@ const FeatureItem = styled.div`
   justify-content: flex-start;
   align-items: center;
   flex-direction: column;
+
 `
 
 const FeatureTitle = styled.h4`
@@ -84,8 +87,12 @@ const FeatureTitle = styled.h4`
   line-height: 30px;
   margin-bottom: 10px;
   text-align: center;
+  @media (max-width: ${props => props.theme.screen.sm}) {
+    max-width: 100%;
+  }
 `
 
 const FeatureText = styled.p`
   text-align: left;
+
 `

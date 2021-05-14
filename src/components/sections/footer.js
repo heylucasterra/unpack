@@ -7,7 +7,7 @@ const Footer = () => (
   <FooterWrapper id="footer">
     <FooterColumnContainer>
       <FooterColumn>
-        <a style={{textDecoration:'none'}} href="mailto:oi.unpack@gmail.com"><span>MANDE UM ALÔ</span></a>
+        <a style={{textDecoration:'none'}} href="mailto:oi.unpack@gmail.com"><span>MANDE UM ALÔ 👋</span></a>
         <ul>
           <li>Unpack • desde 2021 • todos os direitos reservados</li>
         </ul>
