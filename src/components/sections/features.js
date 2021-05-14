@@ -12,7 +12,7 @@ const Features = () => (
         <FeatureItem>
           <FeatureTitle style={{maxWidth:'200px'}}>Tudo em um só lugar</FeatureTitle>
           <FeatureText>
-          Gerenciamos seus cadastros, contratos, entregas, transferências e pagamentos pra você não perder tempo.</FeatureText>
+          Gerenciamos seus cadastros, contratos, entregas, transferências e pagamentos pra você não se perder.</FeatureText>
         </FeatureItem>
         <FeatureItem>
           <FeatureTitle>Parceiros de confiança</FeatureTitle>
@@ -27,9 +27,9 @@ const Features = () => (
           </FeatureText>
         </FeatureItem>
         <FeatureItem>
-          <FeatureTitle> a</FeatureTitle>
+          <FeatureTitle>Tempo de volta pra você</FeatureTitle>
           <FeatureText>
-          
+          Nós assumimos as horas que você gastaria no telefone lutando contra a burocracia, enquanto você ganha essas horas de volta pra fazer algo que gosta.
           </FeatureText>
         </FeatureItem>
         
