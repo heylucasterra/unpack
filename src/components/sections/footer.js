@@ -7,32 +7,19 @@ const Footer = () => (
   <FooterWrapper id="footer">
     <FooterColumnContainer>
       <FooterColumn>
-        <span>Sobre nós</span>
+        <a style={{textDecoration:'none'}} href="mailto:oi.unpack@gmail.com"><span>MANDE UM ALÔ</span></a>
         <ul>
-          <li>Quem somos</li>
-          <li>Rewards</li>
+          <li>Unpack • desde 2021 • todos os direitos reservados</li>
         </ul>
       </FooterColumn>
       <FooterColumn>
-        <span>Resources</span>
-        <ul>
-          <li>Compare</li>
-          <li>Blog</li>
-        </ul>
+        
       </FooterColumn>
       <FooterColumn>
-        <span>Company</span>
-        <ul>
-          <li>About Us</li>
-          <li>Careers</li>
-        </ul>
+        
       </FooterColumn>
       <FooterColumn>
-        <span>Social</span>
-        <ul>
-          <li>LinkedIn</li>
-          <li>Instagram</li>
-        </ul>
+       
       </FooterColumn>
     </FooterColumnContainer>
     <BrandContainer>
@@ -44,7 +31,7 @@ const Footer = () => (
 const FooterWrapper = styled.footer`
   background-color: white;
   margin: 80px 0 0;
-  padding: 0 0 80px;
+  padding: 0 0 40px;
 `
 
 const Logo = styled.div`

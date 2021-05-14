@@ -2,12 +2,12 @@
 
 const theme = {
   font: {
-    primary: `'HK Grotesk Normal'`,
-    secondary: `'HK Grotesk Medium'`,
-    light: `'HK Grotesk Light'`,
-    normal: `'HK Grotesk Normal'`,
-    medium: `'HK Grotesk Medium'`,
-    semibold: `'HK Grotesk Semibold'`,
+    primary: `'Manrope Medium', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';`,
+    secondary: `'Manrope Medium'`,
+    light: `'Manrope Medium'`,
+    normal: `'Manrope Medium'`,
+    medium: `'Manrope Medium'`,
+    semibold: `'Manrope Medium'`,
     bold: `'Dela Gothic'`,
     extrabold: `'Dela Gothic'`,
   },
@@ -16,9 +16,9 @@ const theme = {
     xxsmall: "font-size: 14px;",
     xsmall: "font-size: 16px;",
     small: "font-size: 17px;",
-    regular: "font-size: 22px; line-height: 30px;",
-    large: "font-size: 28px; line-height: 30px;",
-    larger: "font-size: 40px; line-height: 50px;",
+    regular: "font-size: 20px; line-height: 29px;",
+    large: "font-size: 24px; line-height: 30px;",
+    larger: "font-size: 40px; line-height: 46px;",
     xlarge: "font-size: 48px; line-height: 48px;",
   },
 

@@ -31,14 +31,13 @@ const Header = () => {
           <HeaderTextGroup>
             <Subtitle></Subtitle>
             <h1>
-              Sua mudança
-              <br />
-              sem dor de cabeça
+              Resolva sua mudança em um só lugar
             </h1>
             <h2>
-            Estamos facilitando a forma com que você muda de casa. Inscreva-se pra ter acesso e baixe nossa lista de tarefas que vai te ajudar na sua mudança.
-            </h2>
-            <HeaderForm 
+            Contratamos todos os fornecedores da sua mudança — e ajudamos a garantir que não hajam surpresas no grande dia. Inscreva-se para ter acesso antes e receba nossa lista de tarefas para organizar a sua mudança.</h2>
+            <a style={{textDecoration:'none'}} href="https://airtable.com/shr06nSEsbShmTVCE" target="_blank" rel="noopener norefferer"> <Button>Ter acesso antes</Button> </a>
+
+            {/* <HeaderForm 
               name="subscribeForm"
               method="POST"
               netlifyHoneypot="bot-field"
@@ -49,7 +48,7 @@ const Header = () => {
             >
               <HeaderInput placeholder="Seu email" />
               <HeaderButton>Ter acesso antes</HeaderButton>
-            </HeaderForm>
+            </HeaderForm> */}
             {/* <FormSubtitle>
               Already have a beta account?{" "}
               <FormSubtitleLink to="/">Sign in</FormSubtitleLink>
@@ -169,6 +168,36 @@ const HeaderInput = styled.input`
   }
 `
 
+const Button = styled.button`
+  font-family: 'Dela Gothic';
+  font-weight: 500;
+  font-size: 14px;
+  color: #fff;
+  letter-spacing: 1px;
+  height: 60px;
+  display: block;
+  margin-left: 8px;
+  text-transform: uppercase;
+  cursor: pointer;
+  white-space: nowrap;
+  background: ${props => props.theme.color.secondary};
+  border-radius: 0px;
+  padding: 0px 40px;
+  border-width: 0px;
+  border-style: initial;
+  border-color: initial;
+  border-image: initial;
+  outline: 0px;
+  &:hover {
+    box-shadow: rgba(110, 120, 152, 0.22) 0px 2px 10px 0px;
+  }
+  @media (max-width: ${props => props.theme.screen.md}) {
+  }
+  @media (max-width: ${props => props.theme.screen.sm}) {
+    margin-left: 0;
+  }
+`
+
 const HeaderButton = styled.button`
   font-family: 'Dela Gothic';
   font-weight: 500;
@@ -213,6 +242,7 @@ const StyledImage = styled(Img)`
   }
   @media (max-width: ${props => props.theme.screen.sm}) {
     width: 300px;
-    display: none;
+    margin-left: -40px;
+    display: relative;
   }
 `

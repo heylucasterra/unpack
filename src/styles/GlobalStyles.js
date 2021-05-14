@@ -28,7 +28,7 @@ const GlobalStyles = createGlobalStyle`
   }
 
   h2 {
-    ${props => props.theme.font_size.larger};
+    ${props => props.theme.font_size.small};
 
   }
 
@@ -70,7 +70,7 @@ const GlobalStyles = createGlobalStyle`
     }
 
     h3 {
-      ${props => props.theme.font_size.regular};
+      ${props => props.theme.font_size.large};
     }
 
     p {
@@ -89,7 +89,7 @@ const GlobalStyles = createGlobalStyle`
     }
 
     h3 {
-      font-size: 32px;
+      font-size: 30px;
       line-height: 36px;
     }
 

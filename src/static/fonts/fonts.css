@@ -56,7 +56,14 @@
 @font-face {
   font-family: "Dela Gothic";
   src: url("./DelaGothicOne-Regular.woff") format("woff"),
-    url("./DelaGothicOne-Regular.ttf") format("ttff");
+    url("./DelaGothicOne-Regular.ttf") format("ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Manrope Medium";
+  src: url("./Manrope-Medium.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }

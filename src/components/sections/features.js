@@ -7,26 +7,32 @@ const Features = () => (
   <Section id="features">
     <StyledContainer>
       {/* <Subtitle>Features</Subtitle> */}
-      <SectionTitle>Economize tempo <br></br>na sua mudança</SectionTitle>
+      <SectionTitle>Economize tempo<br></br>— e dores de cabeça</SectionTitle>
       <FeaturesGrid>
         <FeatureItem>
-          <FeatureTitle>Lista de tarefas</FeatureTitle>
+          <FeatureTitle style={{maxWidth:'200px'}}>Tudo em um só lugar</FeatureTitle>
           <FeatureText>
-            Te ajudamos a criar uma lista de tarefas customizada para a sua mudança.
-          </FeatureText>
+          Gerenciamos seus cadastros, contratos, entregas, transferências e pagamentos pra você não perder tempo.</FeatureText>
         </FeatureItem>
         <FeatureItem>
           <FeatureTitle>Parceiros de confiança</FeatureTitle>
           <FeatureText>
-            Testamos os melhores serviços na cidade de São Paulo pra você não ter que pesquisar.
+          Conte com nossa rede de fornecedores de confiança para: Transporte, Seguros, Materiais, Decoração, TV & Internet, Personal Organizers e mais.
           </FeatureText>
         </FeatureItem>
         <FeatureItem>
-          <FeatureTitle>Mais tempo pra você</FeatureTitle>
+          <FeatureTitle>Acompanhamento dedicado</FeatureTitle>
           <FeatureText>
-            Planos o.
+          Nosso time está disponível para você e sua mudança via Whatsapp.
           </FeatureText>
         </FeatureItem>
+        <FeatureItem>
+          <FeatureTitle> a</FeatureTitle>
+          <FeatureText>
+          
+          </FeatureText>
+        </FeatureItem>
+        
       </FeaturesGrid>
     </StyledContainer>
   </Section>
@@ -37,7 +43,7 @@ export default Features
 const StyledContainer = styled(Container)``
 
 const SectionTitle = styled.h3`
-  color: ${props => props.theme.color.primary};
+  color: ${props => props.theme.color.secondary};
   display: flex;
   justify-content: center;
   margin: 0 auto 40px;
@@ -53,7 +59,7 @@ const Subtitle = styled.h5`
 `
 
 const FeaturesGrid = styled.div`
-  max-width: 670px;
+  max-width: 700px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   margin: 0px auto;
@@ -67,7 +73,7 @@ const FeaturesGrid = styled.div`
 
 const FeatureItem = styled.div`
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   flex-direction: column;
 `
@@ -77,8 +83,9 @@ const FeatureTitle = styled.h4`
   letter-spacing: 0px;
   line-height: 30px;
   margin-bottom: 10px;
+  text-align: center;
 `
 
 const FeatureText = styled.p`
-  text-align: center;
+  text-align: left;
 `
