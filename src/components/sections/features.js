@@ -7,7 +7,7 @@ const Features = () => (
   <Section id="features">
     <StyledContainer>
       {/* <Subtitle>Features</Subtitle> */}
-      <SectionTitle>Economize tempo<br></br>— e dores de cabeça</SectionTitle>
+      <SectionTitle>Economize tempo<br></br>e dores de cabeça</SectionTitle>
       <FeaturesGrid>
         <FeatureItem>
           <FeatureTitle style={{maxWidth:'200px'}}>Tudo em um só lugar</FeatureTitle>
