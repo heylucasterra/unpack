@@ -7,17 +7,17 @@ const Features = () => (
   <Section id="features">
     <StyledContainer>
       {/* <Subtitle>Features</Subtitle> */}
-      <SectionTitle>Economize tempo<br></br>– e dores de cabeça</SectionTitle>
+      <SectionTitle>Mudar nunca foi tão simples<br></br></SectionTitle>
       <FeaturesGrid>
         <FeatureItem>
           <FeatureTitle style={{maxWidth:'200px'}}>Tudo em um só lugar</FeatureTitle>
           <FeatureText>
-          Gerenciamos seus cadastros, contratos, entregas, transferências e pagamentos pra você não se perder.</FeatureText>
+          Centralizamos a comununicação, cadastros, contratações, transferências, entregas e pagamentos, tudo 100% digital.</FeatureText>
         </FeatureItem>
         <FeatureItem>
           <FeatureTitle>Parceiros de confiança</FeatureTitle>
           <FeatureText>
-          Conte com nossa rede de fornecedores de confiança para: Transporte, Seguros, Materiais, Decoração, TV & Internet, Personal Organizers e mais.
+          Conte com nossa rede de fornecedores de confiança para: Transporte, Personal Organizers, TV & Internet, Materiais, Seguros, e mais.
           </FeatureText>
         </FeatureItem>
         <FeatureItem>
@@ -29,7 +29,7 @@ const Features = () => (
         <FeatureItem>
           <FeatureTitle>Tempo de volta pra você</FeatureTitle>
           <FeatureText>
-          Nós assumimos as horas que você gastaria no telefone lutando contra a burocracia, enquanto você ganha essas horas de volta pra fazer algo que gosta.
+          Foque nas mudanças que estão acontecendo na sua vida, deixe que nós desempacotamos as caixas!
           </FeatureText>
         </FeatureItem>
         
