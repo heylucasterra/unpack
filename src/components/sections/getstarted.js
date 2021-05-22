@@ -6,8 +6,8 @@ import { Container, Section } from "../global"
 const GetStarted = () => (
   <StyledSection>
     <GetStartedContainer>
-      <GetStartedTitle>Prepare-se com nossa lista de tarefas</GetStartedTitle>
-      <p style={{maxWidth:'600px',textAlign:'center',margin:'-8px auto 40px', padding:'0 8px'}}>Conte mais sobre a sua mudança e tenha acesso a nossa lista de planejamento semana a semana.</p>
+      <GetStartedTitle>Prepare-se com nosso checklist</GetStartedTitle>
+      <p style={{maxWidth:'600px',textAlign:'center',margin:'-8px auto 40px', padding:'0 8px'}}>Conte mais sobre a sua mudança e tenha acesso a nossa lista de tarefas.</p>
       <a style={{textDecoration:'none'}} href="https://airtable.com/shr06nSEsbShmTVCE" target="_blank" rel="noopener norefferer"><TryItButton>Baixar agora</TryItButton></a>
       <Subtitle></Subtitle>
     </GetStartedContainer>
