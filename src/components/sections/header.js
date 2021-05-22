@@ -34,7 +34,7 @@ const Header = () => {
               Resolva sua mudança em um só lugar
             </h1>
             <h2>
-            Contratamos todos os fornecedores da sua mudança — e ajudamos a garantir que não hajam surpresas no grande dia. Inscreva-se para ter acesso antes e receba nossa lista de tarefas para organizar a sua mudança.</h2>
+            Contratamos todos os fornecedores da sua mudança e ajudamos a garantir que não haja surpresas no grande dia. Inscreva-se para ter acesso antes e receba nosso checklist para organizar a sua mudança.</h2>
             <a style={{textDecoration:'none'}} href="https://airtable.com/shr06nSEsbShmTVCE" target="_blank" rel="noopener norefferer"> <Button>Ter acesso antes</Button> </a>
 
             {/* <HeaderForm 
